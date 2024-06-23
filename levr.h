@@ -39,8 +39,8 @@ typedef struct _LEVR_Camera      LEVR_Camera;
 typedef struct _LEVR_Material    LEVR_Material;
 typedef struct _LEVR_MaterialSet LEVR_MaterialSet;
 typedef struct _LEVR_Grid        LEVR_Grid;
-typedef struct _LEVR_Scene		 LEVR_Scene;
-typedef struct _LEVR_Hit		 LEVR_Hit;
+typedef struct _LEVR_Scene       LEVR_Scene;
+typedef struct _LEVR_Hit	 LEVR_Hit;
 typedef struct _LEVR_State       LEVR_State;
 
 void       LEVR_screen_flush(LEVR_Screen* screen, uint32_t color);
@@ -429,7 +429,6 @@ uint32_t LEVR_cast(LEVR_Ray ray, LEVR_Scene scene, LEVR_MaterialSet ms){
 	}
 	LEVR_REAL diffuse = LEVR_MAX(LEVR_vec3_dot(LEVR_vec3_normalize(hit.normal), light_dir), 0.0);
 	res = LEVR_vec3_add(res, LEVR_vec3_scalef(LEVR_vec3_scale(color, light_color), diffuse));
-	//res = LEVR_vec3_scalefp(res, 1.5);
 	}
 	return LEVR_rgb_to_u32(LEVR_CLAMP(res.x, 0, 0xFFFFFF), LEVR_CLAMP(res.y, 0, 0xFFFFFF), LEVR_CLAMP(res.z, 0, 0xFFFFFF));
 }
