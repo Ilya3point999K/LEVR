@@ -4,7 +4,7 @@
 ## What's that?
 Since nobody on the Internet has bothered to release a SIMPLE demonstration of HOW TO render voxels without bells and whistles (Compute Shaders, Vulkan, CUDA, whatever other blasphemous technology no one uses) - I had to do it.
 ## Ok, what it has?
-* <1000 LOC, C, single header + demo program
+* <1000 LOC, C99, single header + demo program
 * Voxel world represented with flat 3D array of material indecies
 * Casts rays in arbitrary resolution
 * Software rendering, no GPU
