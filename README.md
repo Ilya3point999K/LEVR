@@ -1,4 +1,6 @@
 # LEVR (Low Effort Voxel R(ay*er)enderer)
+## GIF demonstration
+![](https://github.com/Ilya3point999K/LEVR/blob/main/levr_show.gif)
 ## What's that?
 Since nobody on the Internet has bothered to release a SIMPLE demonstration of HOW TO render voxels without bells and whistles (Compute Shaders, Vulkan, CUDA, whatever other blasphemous technology no one uses) - I had to do it.
 ## Ok, what it has?
