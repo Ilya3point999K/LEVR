@@ -1,3 +1,10 @@
+/*
+	LEVR - Low Effort Voxel Renderer.
+	by Ilya Efimov, 2024.
+	CC0 1.0 Universal, Public Domain.
+*/
+
+
 /****************************************
 LEVR_CONFIGURATION BLOCK
 ****************************************/
